@@ -9,61 +9,58 @@ width: 250px;
     display: flex;
     justify-content:space-around;
 }*/
-body{
-    text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    background: #FFB6C1;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background: #ffb6c1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#avatar
-{
-    width: 150px;
-    border-radius: 50%;
-    border: 6px solid 	#E6E6FA;
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #e6e6fa;
 }
-h1,h2,h4{
-text-shadow: 0px 0px 1px black;
+h1,
+h2,
+h4 {
+  text-shadow: 0px 0px 1px black;
 }
-#age 
-{
-    background:	#20B2AA;
-    padding:  5px 10px;
-    border-radius:5px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    margin:5px 0 10px 0;
+#age {
+  background: #20b2aa;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin: 5px 0 10px 0;
 }
-#date{
-    background:	#20B2AA;
-    padding:  5px 10px;
-    border-radius:5px;
-    margin-bottom: 10px;
-    margin: 5px;
-    margin:5px 0 10px 0;
-   
+#date {
+  background: #20b2aa;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin: 5px;
+  margin: 5px 0 10px 0;
 }
-#header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.gift-sec{
-    margin-top: 50px ;
+.gift-sec {
+  margin-top: 50px;
 }
-.title
-{
-    margin-bottom: 10px;
+.title {
+  margin-bottom: 10px;
 }
-.hint
-{
-    margin-top:0;
+.hint {
+  margin-top: 0;
 }
-.gft{
-    width: 400px;
-    border:6px solid white;
-    border-radius: 10px;
+.gft {
+  width: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background: url("https://media.istockphoto.com/id/1258890076/photo/blank-pink-pastel-color-present-box-or-open-gift-box-with-pink-ribbon-and-bow-isolated-on.jpg?s=612x612&w=0&k=20&c=uoKAanAd8DiinCghYg8aXCYuZDffVwUzYgGlKhF99eA=");
 }
