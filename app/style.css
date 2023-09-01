@@ -25,7 +25,7 @@ body {
 }
 h1,
 h2,
-h4 {
+h4 ,h3,p{
   text-shadow: 0px 0px 1px black;
 }
 #age {
@@ -59,8 +59,33 @@ h4 {
   margin-top: 0;
 }
 .gft {
-  width: 400px;
+margin: 0 auto;
+  display: inline;
+  width: 700px;
+  height: 700px;
   border: 6px solid white;
   border-radius: 10px;
-  background: url("https://media.istockphoto.com/id/1258890076/photo/blank-pink-pastel-color-present-box-or-open-gift-box-with-pink-ribbon-and-bow-isolated-on.jpg?s=612x612&w=0&k=20&c=uoKAanAd8DiinCghYg8aXCYuZDffVwUzYgGlKhF99eA=");
+  background-image: url("https://media.istockphoto.com/id/1258890076/photo/blank-pink-pastel-color-present-box-or-open-gift-box-with-pink-ribbon-and-bow-isolated-on.jpg?s=612x612&w=0&k=20&c=uoKAanAd8DiinCghYg8aXCYuZDffVwUzYgGlKhF99eA=");
+  background-size: cover;
+}
+#gft:hover{
+  background-image: url("https://media.tenor.com/UhLv_deOrtMAAAAi/happy-milk-peach-happy.gif");
+}
+#gft1:hover{
+  background-image: url("https://media.tenor.com/UhLv_deOrtMAAAAi/happy-milk-peach-happy.gif");
+
+}
+#gift-img-genious:hover{
+    background-image:url("https://media3.giphy.com/media/KCn1SXV7gAlXgc0MOu/giphy.gif?cid=ecf05e47tx1a4kcgc1mko361y1djj7xeksghmvmebt0frds0&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+#gift-img-badass:hover{
+    background-image:url("https://media3.giphy.com/media/JL7ZkACcStPIiEVdGO/giphy.gif?cid=ecf05e47wg0hq62df41rqjm66su82eggguneqwcstetlddib&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+#gift-img-cheers{
+
+    height:200px;
+}
+#gift-img-cheers:hover{
+
+    background-image:url("https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif?cid=ecf05e47gybhgs5phbo5c41r6j37v1dkjcvh63quteuhd8ph&ep=v1_gifs_search&rid=giphy.gif&ct=g");
 }
